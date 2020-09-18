@@ -29,6 +29,7 @@ module VASP {
 
 
     /// Maximum number of child accounts that can be created by a single ParentVASP
+    /// Once this number is changed, please update the same limitation constant `MAX_CHILD_VASP_NUM` under Cluster test
     const MAX_CHILD_ACCOUNTS: u64 = 256;
 
     ///////////////////////////////////////////////////////////////////////////
